@@ -50,7 +50,7 @@ const clickHandler = (e) => {
     setupQuiz();
   } else {
     window.alert(
-      "終了！あなたの正解数は" + score + "/" + quizLength + "です！"
+      "終了！\nあなたの正解数は" + score + "/" + quizLength + "です！"
     );
   }
 };
